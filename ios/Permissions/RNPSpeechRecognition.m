@@ -5,6 +5,8 @@
 //  Created by Tres Trantham on 1/11/17.
 //  Copyright © 2017 Yonah Forst. All rights reserved.
 //
+#import "RNPFeature.h"
+#ifdef RNP_USE_SPEECH
 
 #import "RNPSpeechRecognition.h"
 #import <Speech/Speech.h>
@@ -42,3 +44,5 @@
 }
 
 @end
+
+#endif
