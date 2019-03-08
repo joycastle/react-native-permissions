@@ -5,6 +5,8 @@
 //  Created by Yonah Forst on 11/07/16.
 //  Copyright © 2016 Yonah Forst. All rights reserved.
 //
+#import "RNPFeature.h"
+#ifdef RNP_USE_CALENDAR
 
 #import "RNPEvent.h"
 #import <EventKit/EventKit.h>
@@ -46,3 +48,5 @@
 }
 
 @end
+
+#endif

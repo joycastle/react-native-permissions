@@ -5,6 +5,8 @@
 //  Created by Yonah Forst on 11/07/16.
 //  Copyright © 2016 Yonah Forst. All rights reserved.
 //
+#import "RNPFeature.h"
+#ifdef RNP_USE_MEDIALIBRARY
 
 #import "RNPMediaLibrary.h"
 #import <MediaPlayer/MediaPlayer.h>
@@ -39,3 +41,5 @@
     }];
 }
 @end
+
+#endif

@@ -2,6 +2,8 @@
 //  RNPMotion.m
 //  ReactNativePermissions
 //
+#import "RNPFeature.h"
+#ifdef RNP_USE_MOTION
 
 #import "RNPMotion.h"
 #import <CoreMotion/CoreMotion.h>
@@ -60,3 +62,5 @@
     }
 }
 @end
+
+#endif

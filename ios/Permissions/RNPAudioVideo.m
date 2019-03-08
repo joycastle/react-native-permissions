@@ -5,9 +5,10 @@
 //  Created by Yonah Forst on 11/07/16.
 //  Copyright © 2016 Yonah Forst. All rights reserved.
 //
+#import "RNPFeature.h"
+#ifdef RNP_USE_AUDIOVIDEO
 
 #import "RNPAudioVideo.h"
-
 #import <AVFoundation/AVFoundation.h>
 
 @implementation RNPAudioVideo
@@ -46,3 +47,5 @@
 }
 
 @end
+
+#endif
